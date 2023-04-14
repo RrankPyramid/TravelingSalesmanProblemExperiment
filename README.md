@@ -11,7 +11,7 @@ This project propose a Hybrid algorithm of ACO and Tabu Search Algorithm, improv
 To rerun the test, install the following package:
 
 ```
-sudo apt-get install build-essencials
+sudo apt-get install build-essential
 pip install matplotlib
 pip install numpy
 ```
