@@ -149,7 +149,7 @@ int main() {
     double evaporation_rate = 0.5;
     double initial_pheromone = 1.0;
     int num_ants = 10;
-    int num_aco_iterations = 10;
+    int num_aco_iterations = 1;
 
     // Tabu Search parameters
     int max_tabu_iterations = 100;

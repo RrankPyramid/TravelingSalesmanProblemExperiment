@@ -74,7 +74,7 @@ int main() {
     // Adjust parameters based on input size
     double alpha = 1.0;
     double beta = 5.0;
-    double evaporation_rate = 0.3;
+    double evaporation_rate = 0.5;
     double initial_pheromone = 1.0;
     int num_ants = 10;
     int num_iterations = 10;

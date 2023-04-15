@@ -81,7 +81,7 @@ if __name__ == "__main__":
     cpp_files = ["Tabu.cpp", "ACO.cpp", "Hybrid.cpp"]
     compile_cpp_files(cpp_files)
 
-    # File: xqf131, xqg237, pma343, pka379, pbl395, bcl380
+    # File: xqf131, xqg237, pma343, pka379, pbl395, bcl380, pbk411, pbn423, pbm436
 
     datasets = [("./testdata/VLSI/xqf131.tsp", "XFQ131"),
                 ("./testdata/VLSI/xqg237.tsp", "XQG237"),
@@ -89,6 +89,9 @@ if __name__ == "__main__":
                 ("./testdata/VLSI/pka379.tsp", "PKA379"),
                 ("./testdata/VLSI/pbl395.tsp", "PBL395"),
                 ("./testdata/VLSI/bcl380.tsp", "BCL380"),
+                ("./testdata/VLSI/pbk411.tsp", "PBK411"),
+                ("./testdata/VLSI/pbn423.tsp", "PBN423"),
+                ("./testdata/VLSI/pbm436.tsp", "PBM436")
             ]    
     running_result_list = [test(dataset_path, dataset_name) for dataset_path, dataset_name in datasets]
     show(running_result_list)
